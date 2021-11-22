@@ -1,0 +1,66 @@
+
+                                                /* CONTACT FORM */
+
+body{
+  background-color: #f1f1f1;
+  font-family: 'Raleway', sans-serif;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #007BFF !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #007BFF !important;
+}
+
+.contact-form {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 10px;
+  overflow: hidden;
+}
+.contact-form .form-controlhh{
+  height: 58px;
+}
+.contact-form .form-controlhh input{
+  float: left;
+}
+.contact-form .alert-custom{
+  padding: 5px 10px;
+  margin: 6px 0 -5px;
+  display: none;
+}
+.contact-form h2{
+  color: #007BFF;
+  margin-bottom: 28px;
+  letter-spacing: -2px;
+}
+
+.contact-form .alert{
+  font-size: .8rem;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  margin-top: 12px;
+  border: 1px solid #007BFF;
+}
+.contact-form form input{
+  padding-left: 35px;
+}
+
+.contact-form form svg{
+  float: left;
+  position: relative;
+  top: -28px;
+  left: 11px;
+  color: #007BFF;
+}
+.contact-form form .send-icon{
+  top: 22px;
+  left: -147px;
+  color: #FFF;
+  position: relative;
+}
